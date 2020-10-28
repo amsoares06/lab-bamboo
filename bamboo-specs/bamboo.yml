@@ -1,9 +1,9 @@
 ---
 version: 2
 plan:
-  project-key: PROJ
-  key: TEST
-  name: Testing plans
+  project-key: TES
+  key: test-plan
+  name: test-plan
 stages:
   - Uname:
     - Run Uname
