@@ -1,5 +1,9 @@
 ---
 version: 2
+plan:
+  project-key: PROJ
+  key: TEST
+  name: Testing plans
 stages:
   - Uname:
     - Run Uname
