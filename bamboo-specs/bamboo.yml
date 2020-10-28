@@ -13,3 +13,4 @@ Run Uname:
     - script:
       - set -x
       - uname -a
+      - mkdir /tmp/bla
