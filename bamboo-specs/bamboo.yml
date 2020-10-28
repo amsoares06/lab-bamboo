@@ -1,0 +1,11 @@
+---
+version: 2
+stages:
+  - Uname:
+    - Run Uname
+
+Run Uname:
+  tasks:
+    - script:
+      - set -x
+      - uname -a
